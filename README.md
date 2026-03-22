@@ -30,9 +30,9 @@ The Custom CNN model achieved the best performance with an accuracy of 0.9105.
 ## Dataset
 The dataset is not uploaded to this repository because it is large in size.
 It was loaded directly from Kaggle in Google Colab, and only a subset was used for training and evaluation.
+
 Dataset Path:
 import kagglehub
-# Download latest version
 path = kagglehub.dataset_download("birdy654/cifake-real-and-ai-generated-synthetic-images")
 print("Path to dataset files:", path)
 
@@ -43,6 +43,12 @@ print("Path to dataset files:", path)
 4. Train multiple models
 5. Compare model performance
 6. Evaluate results
+
+## How to Run
+1. Open the notebook in Google Colab
+2. Install required libraries:
+   pip install -r requirements.txt
+3. Run all cells step by step
 
 ## Repository Files
 - `deepfake_image.ipynb` → complete Colab notebook
